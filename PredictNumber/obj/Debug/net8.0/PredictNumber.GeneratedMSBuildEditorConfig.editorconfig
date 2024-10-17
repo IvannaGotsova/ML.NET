@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PredictNumber
-build_property.ProjectDir = C:\Users\IG\source\repos\ML .NET\PredictNumber\
+build_property.ProjectDir = C:\Users\IG\Source\Repos\ML.NET\PredictNumber\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
