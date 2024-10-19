@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber.csproj",
-      "projectName": "PredictNumber",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
+      "projectName": "PredictNumber-ValuePrediction",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\obj\\",
       "projectStyle": "PackageReference",

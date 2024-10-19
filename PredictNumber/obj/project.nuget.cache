@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BYC+wrrIPgLHQLgaEYBQE3nLqZsDIVN7MfqygNQj0BkHPVuAFrkmOXawWLHcmLa4VeB6iAxZTm2jXVLuJcWVmA==",
+  "dgSpecHash": "A25+OIb0n0tglGQ/66KrDuo4oXnUgdqw7Dq2V+GwJQSXPw2xGmgVUPwC0IlW2FT/PeWd5rUggoCQhLnasm+X0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber.csproj",
+  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
