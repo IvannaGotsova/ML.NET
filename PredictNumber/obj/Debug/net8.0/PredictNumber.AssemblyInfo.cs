@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PredictNumber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5968ecb3a6a72c2435c3111c7929cdb21ec9842a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PredictNumber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PredictNumber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\IG\source\repos\ML .NET\PredictNumber\bin\Debug\net8.0\PredictNumber.exe
+C:\Users\IG\source\repos\ML .NET\PredictNumber\bin\Debug\net8.0\PredictNumber.deps.json
+C:\Users\IG\source\repos\ML .NET\PredictNumber\bin\Debug\net8.0\PredictNumber.runtimeconfig.json
+C:\Users\IG\source\repos\ML .NET\PredictNumber\bin\Debug\net8.0\PredictNumber.dll
+C:\Users\IG\source\repos\ML .NET\PredictNumber\bin\Debug\net8.0\PredictNumber.pdb
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.AssemblyInfoInputs.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.AssemblyInfo.cs
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.csproj.CoreCompileInputs.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.sourcelink.json
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.dll
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\refint\PredictNumber.dll
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.pdb
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber.genruntimeconfig.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\ref\PredictNumber.dll
