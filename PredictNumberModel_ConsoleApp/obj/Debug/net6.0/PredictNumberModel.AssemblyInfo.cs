@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PredictNumberModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+243b91396c85589c1257b0383c2b4ea761a40d39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b47b07ca3332255373d2c95bed1c8c3ead9696d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PredictNumberModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PredictNumberModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

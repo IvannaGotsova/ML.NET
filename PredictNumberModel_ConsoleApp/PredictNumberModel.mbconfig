@@ -110,8 +110,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": -0.12256564633023784,
-        "RuntimeInSeconds": 6.138,
+        "Score": -0.12619865420498941,
+        "RuntimeInSeconds": 0.879,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7",
           "e0": {
@@ -168,9 +168,9 @@
             "OutputColumnName": "Features"
           },
           "e7": {
-            "NumberOfTrees": 480,
+            "NumberOfTrees": 168,
             "NumberOfLeaves": 4,
-            "FeatureFraction": 0.637079239,
+            "FeatureFraction": 0.6508735,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -215,8 +215,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": -0.12303572706773247,
-        "RuntimeInSeconds": 2.776,
+        "Score": -0.12768958805829361,
+        "RuntimeInSeconds": 2.287,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7",
           "e0": {
@@ -273,9 +273,9 @@
             "OutputColumnName": "Features"
           },
           "e7": {
-            "NumberOfTrees": 49,
+            "NumberOfTrees": 927,
             "NumberOfLeaves": 4,
-            "FeatureFraction": 0.0137810223,
+            "FeatureFraction": 0.989604652,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -320,8 +320,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": -0.12702485741477468,
-        "RuntimeInSeconds": 1.362,
+        "Score": -0.12797466972594768,
+        "RuntimeInSeconds": 0.599,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7",
           "e0": {
@@ -378,9 +378,9 @@
             "OutputColumnName": "Features"
           },
           "e7": {
-            "NumberOfTrees": 9,
-            "NumberOfLeaves": 147,
-            "FeatureFraction": 0.8949778,
+            "NumberOfTrees": 36,
+            "NumberOfLeaves": 13,
+            "FeatureFraction": 1.0,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -424,11 +424,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastForestRegression",
-        "Score": -0.13099325418534474,
-        "RuntimeInSeconds": 31.736,
+        "TrainerName": "LightGbmRegression",
+        "Score": -0.12866101626012208,
+        "RuntimeInSeconds": 0.755,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e8",
           "e0": {
             "OutputColumnNames": [
               "department,",
@@ -482,10 +482,16 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e7": {
-            "NumberOfTrees": 13485,
+          "e8": {
             "NumberOfLeaves": 4,
-            "FeatureFraction": 0.2750686,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.18749649290873865,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 276,
+            "FeatureFraction": 0.88863301112262094,
+            "L1Regularization": 5.5783934624790534E-10,
+            "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -505,16 +511,10 @@
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
-          "e8": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
+          "e7": {
             "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 255,
+            "NumberOfLeaves": 4,
             "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -530,8 +530,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": -0.13241557166386156,
-        "RuntimeInSeconds": 15.111,
+        "Score": -0.12872213271747679,
+        "RuntimeInSeconds": 2.585,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e7",
           "e0": {
@@ -588,9 +588,9 @@
             "OutputColumnName": "Features"
           },
           "e7": {
-            "NumberOfTrees": 4628,
-            "NumberOfLeaves": 1798,
-            "FeatureFraction": 1.0,
+            "NumberOfTrees": 1066,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 0.866968,
             "LabelColumnName": "salary",
             "FeatureColumnName": "Features"
           },
@@ -654,7 +654,7 @@
   "TrainingOption": {
     "Version": 1,
     "Type": "RegressionTrainingOption",
-    "TrainingTime": 200,
+    "TrainingTime": 150,
     "LabelColumn": "salary",
     "ValidationOption": {
       "Version": 0,
