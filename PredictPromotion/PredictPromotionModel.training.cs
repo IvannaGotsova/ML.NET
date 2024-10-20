@@ -10,7 +10,7 @@ using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Trainers;
 using Microsoft.ML;
 
-namespace PredictPromotionModel
+namespace PredictPromotion
 {
     public partial class PredictPromotionModel
     {
