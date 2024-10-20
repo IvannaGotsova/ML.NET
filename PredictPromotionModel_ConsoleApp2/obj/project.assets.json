@@ -1190,9 +1190,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp2\\PredictPromotionModel_ConsoleApp2.csproj",
-      "projectName": "PredictPromotionModel_ConsoleApp2",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp2\\PredictPromotionModel_ConsoleApp2.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp2\\PredictPromotionModel.csproj",
+      "projectName": "PredictPromotionModel",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp2\\PredictPromotionModel.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
