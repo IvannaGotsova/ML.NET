@@ -1,32 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "LightGBM/2.3.1": {
-        "type": "package",
-        "build": {
-          "build/LightGBM.props": {},
-          "build/LightGBM.targets": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux-x64/native/lib_lightgbm.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          },
-          "runtimes/osx-x64/native/lib_lightgbm.dylib": {
-            "assetType": "native",
-            "rid": "osx-x64"
-          },
-          "runtimes/win-x64/native/lib_lightgbm.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/lightgbm.exe": {
-            "assetType": "native",
-            "rid": "win-x64"
-          }
-        }
-      },
+    "net6.0": {
       "Microsoft.ML/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -217,24 +192,6 @@
           "runtimes/win-x86/native/FastTreeNative.dll": {
             "assetType": "native",
             "rid": "win-x86"
-          }
-        }
-      },
-      "Microsoft.ML.LightGbm/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "LightGBM": "2.3.1",
-          "Microsoft.ML": "2.0.0",
-          "Microsoft.ML.FastTree": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -432,23 +389,6 @@
     }
   },
   "libraries": {
-    "LightGBM/2.3.1": {
-      "sha512": "2YVf5McWa6PT00EJnVYTZLAvTQ2YArIWUmMJ3Fu46ZL1RdKnqCy1s+iUeWxvEuviaQ/cXt6M/EaWpVHnXGc9gg==",
-      "type": "package",
-      "path": "lightgbm/2.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/LightGBM.props",
-        "build/LightGBM.targets",
-        "lightgbm.2.3.1.nupkg.sha512",
-        "lightgbm.nuspec",
-        "runtimes/linux-x64/native/lib_lightgbm.so",
-        "runtimes/osx-x64/native/lib_lightgbm.dylib",
-        "runtimes/win-x64/native/lib_lightgbm.dll",
-        "runtimes/win-x64/native/lightgbm.exe"
-      ]
-    },
     "Microsoft.ML/2.0.0": {
       "sha512": "bUU+TwpgEAQamvst0XJ7xnONHPGfbJXqorvAJ1onv5g6jF+Yq10oLWPhn74SJsX/WjYbQSkKqr/g7K75oIDpaQ==",
       "type": "package",
@@ -552,22 +492,6 @@
         "runtimes/osx-x64/native/libFastTreeNative.dylib",
         "runtimes/win-x64/native/FastTreeNative.dll",
         "runtimes/win-x86/native/FastTreeNative.dll"
-      ]
-    },
-    "Microsoft.ML.LightGbm/2.0.0": {
-      "sha512": "iWOwVr53tNbv8cn9G2WrHjO4i1XHMUbSIUr3AS04l9IZ9svWJYJRzPEzx0SPj5e2voX8BbvTZEjGNzOGxzVVtg==",
-      "type": "package",
-      "path": "microsoft.ml.lightgbm/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard2.0/Microsoft.ML.LightGbm.dll",
-        "lib/netstandard2.0/Microsoft.ML.LightGbm.xml",
-        "microsoft.ml.lightgbm.2.0.0.nupkg.sha512",
-        "microsoft.ml.lightgbm.nuspec",
-        "mlnetlogo.png"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1255,10 +1179,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net6.0": [
       "Microsoft.ML >= 2.0.0",
-      "Microsoft.ML.FastTree >= 2.0.0",
-      "Microsoft.ML.LightGbm >= 2.0.0"
+      "Microsoft.ML.FastTree >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -1267,26 +1190,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotion\\PredictPromotionModel.csproj",
-      "projectName": "PredictPromotionModel",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotion\\PredictPromotionModel.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp1\\PredictPromotionModel_ConsoleApp1.csproj",
+      "projectName": "PredictPromotionModel_ConsoleApp1",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp1\\PredictPromotionModel_ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotion\\obj\\",
+      "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1297,18 +1220,14 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.ML": {
             "target": "Package",
             "version": "[2.0.0, )"
           },
           "Microsoft.ML.FastTree": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.ML.LightGbm": {
             "target": "Package",
             "version": "[2.0.0, )"
           }
@@ -1329,7 +1248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
