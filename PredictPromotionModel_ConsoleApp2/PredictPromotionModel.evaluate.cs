@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace PredictPromotionModel
+namespace PredictPromotionModel_ConsoleApp2
 {
     public partial class PredictPromotionModel
     {
