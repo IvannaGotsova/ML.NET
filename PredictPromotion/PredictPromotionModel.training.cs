@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ML.Data;
-using Microsoft.ML.Trainers.LightGbm;
+using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Trainers;
 using Microsoft.ML;
 
@@ -100,7 +100,7 @@ namespace PredictPromotionModel
                                     .Append(mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"country,",outputColumnName:@"country,"))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"person_id,",@"age,",@"rating,",@"experience,",@"salary",@"department,",@"first_name,",@"last_name,",@"city,",@"state,",@"country,"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"promotion,",inputColumnName:@"promotion,",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=4,MinimumExampleCountPerLeaf=28,LearningRate=0.999999776672986,LabelColumnName=@"promotion,",FeatureColumnName=@"Features",ExampleWeightColumnName=null,Booster=new GradientBooster.Options(){SubsampleFraction=0.999999776672986,FeatureFraction=0.95104255689119,L1Regularization=2E-10,L2Regularization=0.999999776672986},MaximumBinCountPerFeature=149}))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastTree(new FastTreeBinaryTrainer.Options(){NumberOfLeaves=9,MinimumExampleCountPerLeaf=5,NumberOfTrees=4,MaximumBinCountPerFeature=352,FeatureFraction=0.99999999,LearningRate=0.113023958897281,LabelColumnName=@"promotion,",FeatureColumnName=@"Features"}),labelColumnName: @"promotion,"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
