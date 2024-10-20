@@ -1,0 +1,6 @@
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.csproj.AssemblyReference.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.AssemblyInfoInputs.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.AssemblyInfo.cs
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.csproj.CoreCompileInputs.cache
+C:\Users\IG\source\repos\ML .NET\PredictNumber\obj\Debug\net8.0\PredictNumber-ValuePrediction.sourcelink.json

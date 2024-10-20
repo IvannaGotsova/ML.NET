@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj": {}
+    "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj": {
+    "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
-        "projectName": "PredictNumber-ValuePrediction",
-        "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
+        "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
+        "projectName": "PredictNumberModel",
+        "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
         "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\obj\\",
+        "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.ML": {
               "target": "Package",
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZE7opkItJG/c8Q+NfvcxGRk0L0aAjYGr1rI0PWTmOrxO8rZfW/P2KUq7TimyjIk3PbMTAOck4aYX9snTXKpUQ==",
+  "dgSpecHash": "Ruo5NCCFjZbt1fVscDjAKlOYeey0Q5S68LRgMt0gfh5zM2FwgRWs7kaObMOPx6gkJGkxiwN+iXrknAdEzeI3dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumber\\PredictNumber-ValuePrediction.csproj",
+  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml\\2.0.0\\microsoft.ml.2.0.0.nupkg.sha512",
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml.cpumath\\2.0.0\\microsoft.ml.cpumath.2.0.0.nupkg.sha512",
