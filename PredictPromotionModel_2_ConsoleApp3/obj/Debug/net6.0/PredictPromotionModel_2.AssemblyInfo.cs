@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PredictPromotionModel_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e5092ad54f1f400bcbcc9f81ab636150b278723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PredictPromotionModel_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PredictPromotionModel_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,3 +39,4 @@ C:\Users\IG\source\repos\ML .NET\PredictNumberModel_ConsoleApp\obj\Debug\net6.0\
 C:\Users\IG\source\repos\ML .NET\PredictNumberModel_ConsoleApp\obj\Debug\net6.0\PredictNumberModel.pdb
 C:\Users\IG\source\repos\ML .NET\PredictNumberModel_ConsoleApp\obj\Debug\net6.0\PredictNumberModel.genruntimeconfig.cache
 C:\Users\IG\source\repos\ML .NET\PredictNumberModel_ConsoleApp\obj\Debug\net6.0\ref\PredictNumberModel.dll
+C:\Users\IG\source\repos\ML .NET\PredictNumberModel_ConsoleApp\bin\Debug\net6.0\PredictPromotionModel.mlnet
