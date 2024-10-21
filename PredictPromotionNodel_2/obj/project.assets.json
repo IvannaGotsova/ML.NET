@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionNodel_2\\PredictPromotionNodel_2.csproj",
-      "projectName": "PredictPromotionNodel_2",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionNodel_2\\PredictPromotionNodel_2.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionNodel_2\\PredictPromotionModel_2.csproj",
+      "projectName": "PredictPromotionModel_2",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionNodel_2\\PredictPromotionModel_2.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionNodel_2\\obj\\",
       "projectStyle": "PackageReference",
