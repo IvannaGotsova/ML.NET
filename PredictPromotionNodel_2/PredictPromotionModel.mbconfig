@@ -119,8 +119,8 @@
     "LabelColumn": "promotion,",
     "ValidationOption": {
       "Version": 0,
-      "Type": "TrainValidateSplitValidationOption",
-      "SplitRatio": 0.2
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 10
     }
   }
 }
