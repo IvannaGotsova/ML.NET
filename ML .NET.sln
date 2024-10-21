@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictNumberModel", "Predi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel", "PredictPromotionModel_ConsoleApp2\PredictPromotionModel.csproj", "{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictPromotionNodel_2", "PredictPromotionNodel_2\PredictPromotionNodel_2.csproj", "{3FCE1856-8E7F-497B-A438-959A25D086E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
