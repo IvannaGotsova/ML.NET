@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictNumberModel", "Predi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel", "PredictPromotionModel_ConsoleApp2\PredictPromotionModel.csproj", "{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2", "PredictPromotionNodel_2\PredictPromotionModel_2.csproj", "{3FCE1856-8E7F-497B-A438-959A25D086E7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2_ConsoleApp3", "PredictPromotionModel_2_ConsoleApp3\PredictPromotionModel_2_ConsoleApp3.csproj", "{4E58F977-AEA4-486A-A9AF-19FE5A031432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2", "PredictPromotionModel_2_ConsoleApp3\PredictPromotionModel_2.csproj", "{4E58F977-AEA4-486A-A9AF-19FE5A031432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E7F828-8D94-4FBB-ADBB-20F8F7982E07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FCE1856-8E7F-497B-A438-959A25D086E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E58F977-AEA4-486A-A9AF-19FE5A031432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E58F977-AEA4-486A-A9AF-19FE5A031432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E58F977-AEA4-486A-A9AF-19FE5A031432}.Release|Any CPU.ActiveCfg = Release|Any CPU

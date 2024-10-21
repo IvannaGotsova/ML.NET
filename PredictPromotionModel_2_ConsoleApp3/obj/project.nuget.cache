@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7gQTA5o5sB4qgJEGooQ5JGVm5iaUCwbacGs2sPessMsGbahh0OCRiN41Ls2QAZYQPKkjhLDp6WlUH44IqUScA==",
+  "dgSpecHash": "XZaMF9e9W9E5MH2kHAPvXILmNooMhvlNcRqTG+k+5tfjlWUp7fJWE6MhXz9Zx2ByyHL1jD6N/0Zi1jeSQ89kYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_2_ConsoleApp3\\PredictPromotionModel_2_ConsoleApp3.csproj",
+  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictPromotionModel_2_ConsoleApp3\\PredictPromotionModel_2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml\\2.0.0\\microsoft.ml.2.0.0.nupkg.sha512",
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml.cpumath\\2.0.0\\microsoft.ml.cpumath.2.0.0.nupkg.sha512",
