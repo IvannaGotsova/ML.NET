@@ -117,9 +117,390 @@
       {
         "Version": 1,
         "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.883293099057805,
+        "RuntimeInSeconds": 0.563,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e12 * e15",
+          "e0": {
+            "OutputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ],
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ]
+          },
+          "e1": {
+            "InputColumnName": "person_id,",
+            "OutputColumnName": "person_id,"
+          },
+          "e12": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.4902121,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e15": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "first_name,",
+            "OutputColumnName": "first_name,"
+          },
+          "e3": {
+            "InputColumnName": "age,",
+            "OutputColumnName": "age,"
+          },
+          "e4": {
+            "InputColumnName": "state,",
+            "OutputColumnName": "state,"
+          },
+          "e5": {
+            "InputColumnName": "rating,",
+            "OutputColumnName": "rating,"
+          },
+          "e6": {
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary",
+              "person_id,",
+              "first_name,",
+              "age,",
+              "state,",
+              "rating,"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e7": {
+            "OutputColumnName": "promotion,",
+            "InputColumnName": "promotion,",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e10": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e11": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e13": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e14": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e8": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.82848077412783283,
+        "RuntimeInSeconds": 1.249,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e8 * e15",
+          "e0": {
+            "OutputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ],
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ]
+          },
+          "e1": {
+            "InputColumnName": "person_id,",
+            "OutputColumnName": "person_id,"
+          },
+          "e15": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "first_name,",
+            "OutputColumnName": "first_name,"
+          },
+          "e3": {
+            "InputColumnName": "age,",
+            "OutputColumnName": "age,"
+          },
+          "e4": {
+            "InputColumnName": "state,",
+            "OutputColumnName": "state,"
+          },
+          "e5": {
+            "InputColumnName": "rating,",
+            "OutputColumnName": "rating,"
+          },
+          "e6": {
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary",
+              "person_id,",
+              "first_name,",
+              "age,",
+              "state,",
+              "rating,"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e7": {
+            "OutputColumnName": "promotion,",
+            "InputColumnName": "promotion,",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e8": {
+            "NumberOfLeaves": 10,
+            "MinimumExampleCountPerLeaf": 11,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 181,
+            "FeatureFraction": 0.99999999,
+            "LearningRate": 0.00052856648913657647,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e10": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e11": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e12": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e13": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e14": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.80806518971224861,
+        "RuntimeInSeconds": 0.747,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e12 * e15",
+          "e0": {
+            "OutputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ],
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary"
+            ]
+          },
+          "e1": {
+            "InputColumnName": "person_id,",
+            "OutputColumnName": "person_id,"
+          },
+          "e12": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e15": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "first_name,",
+            "OutputColumnName": "first_name,"
+          },
+          "e3": {
+            "InputColumnName": "age,",
+            "OutputColumnName": "age,"
+          },
+          "e4": {
+            "InputColumnName": "state,",
+            "OutputColumnName": "state,"
+          },
+          "e5": {
+            "InputColumnName": "rating,",
+            "OutputColumnName": "rating,"
+          },
+          "e6": {
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary",
+              "person_id,",
+              "first_name,",
+              "age,",
+              "state,",
+              "rating,"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e7": {
+            "OutputColumnName": "promotion,",
+            "InputColumnName": "promotion,",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e10": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e11": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e13": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e14": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e8": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
         "TrainerName": "FastTreeOva",
         "Score": 0.78296715049656229,
-        "RuntimeInSeconds": 2.779,
+        "RuntimeInSeconds": 2.861,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e8 * e15",
           "e0": {
@@ -244,11 +625,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
+        "TrainerName": "SdcaMaximumEntropyMulti",
         "Score": 0.78296715049656229,
-        "RuntimeInSeconds": 1.057,
+        "RuntimeInSeconds": 1.104,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e10 * e15",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e13 * e15",
           "e0": {
             "OutputColumnNames": [
               "department,",
@@ -270,6 +651,53 @@
           "e1": {
             "InputColumnName": "person_id,",
             "OutputColumnName": "person_id,"
+          },
+          "e13": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "promotion,",
+            "FeatureColumnName": "Features"
+          },
+          "e15": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "first_name,",
+            "OutputColumnName": "first_name,"
+          },
+          "e3": {
+            "InputColumnName": "age,",
+            "OutputColumnName": "age,"
+          },
+          "e4": {
+            "InputColumnName": "state,",
+            "OutputColumnName": "state,"
+          },
+          "e5": {
+            "InputColumnName": "rating,",
+            "OutputColumnName": "rating,"
+          },
+          "e6": {
+            "InputColumnNames": [
+              "department,",
+              "last_name,",
+              "city,",
+              "country,",
+              "experience,",
+              "salary",
+              "person_id,",
+              "first_name,",
+              "age,",
+              "state,",
+              "rating,"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e7": {
+            "OutputColumnName": "promotion,",
+            "InputColumnName": "promotion,",
+            "AddKeyValueAnnotationsAsText": false
           },
           "e10": {
             "NumberOfLeaves": 4,
@@ -277,180 +705,12 @@
             "LearningRate": 1.0,
             "NumberOfTrees": 4,
             "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e15": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnName": "first_name,",
-            "OutputColumnName": "first_name,"
-          },
-          "e3": {
-            "InputColumnName": "age,",
-            "OutputColumnName": "age,"
-          },
-          "e4": {
-            "InputColumnName": "state,",
-            "OutputColumnName": "state,"
-          },
-          "e5": {
-            "InputColumnName": "rating,",
-            "OutputColumnName": "rating,"
-          },
-          "e6": {
-            "InputColumnNames": [
-              "department,",
-              "last_name,",
-              "city,",
-              "country,",
-              "experience,",
-              "salary",
-              "person_id,",
-              "first_name,",
-              "age,",
-              "state,",
-              "rating,"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e7": {
-            "OutputColumnName": "promotion,",
-            "InputColumnName": "promotion,",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e12": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e13": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e14": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
             "MaximumBinCountPerFeature": 255,
             "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e9": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.78296715049656229,
-        "RuntimeInSeconds": 2.628,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e10 * e15",
-          "e0": {
-            "OutputColumnNames": [
-              "department,",
-              "last_name,",
-              "city,",
-              "country,",
-              "experience,",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "department,",
-              "last_name,",
-              "city,",
-              "country,",
-              "experience,",
-              "salary"
-            ]
-          },
-          "e1": {
-            "InputColumnName": "person_id,",
-            "OutputColumnName": "person_id,"
-          },
-          "e10": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.99999977667298645,
-            "NumberOfTrees": 3304,
-            "SubsampleFraction": 0.22107673169491768,
-            "MaximumBinCountPerFeature": 121,
-            "FeatureFraction": 0.99999999,
             "L1Regularization": 2E-10,
-            "L2Regularization": 0.99999977667298645,
+            "L2Regularization": 1.0,
             "LabelColumnName": "promotion,",
             "FeatureColumnName": "Features"
-          },
-          "e15": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnName": "first_name,",
-            "OutputColumnName": "first_name,"
-          },
-          "e3": {
-            "InputColumnName": "age,",
-            "OutputColumnName": "age,"
-          },
-          "e4": {
-            "InputColumnName": "state,",
-            "OutputColumnName": "state,"
-          },
-          "e5": {
-            "InputColumnName": "rating,",
-            "OutputColumnName": "rating,"
-          },
-          "e6": {
-            "InputColumnNames": [
-              "department,",
-              "last_name,",
-              "city,",
-              "country,",
-              "experience,",
-              "salary",
-              "person_id,",
-              "first_name,",
-              "age,",
-              "state,",
-              "rating,"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e7": {
-            "OutputColumnName": "promotion,",
-            "InputColumnName": "promotion,",
-            "AddKeyValueAnnotationsAsText": false
           },
           "e11": {
             "L1Regularization": 1.0,
@@ -461,12 +721,6 @@
           "e12": {
             "L1Regularization": 1.0,
             "L2Regularization": 1.0,
-            "LabelColumnName": "promotion,",
-            "FeatureColumnName": "Features"
-          },
-          "e13": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
             "LabelColumnName": "promotion,",
             "FeatureColumnName": "Features"
           },

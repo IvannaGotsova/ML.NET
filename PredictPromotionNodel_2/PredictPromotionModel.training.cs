@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ML.Data;
-using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Trainers;
 using Microsoft.ML.Transforms;
 using Microsoft.ML;
@@ -100,7 +99,7 @@ namespace PredictNumberModel
                                     .Append(mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"rating,",outputColumnName:@"rating,"))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"department,",@"last_name,",@"city,",@"country,",@"experience,",@"salary",@"person_id,",@"first_name,",@"age,",@"state,",@"rating,"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"promotion,",inputColumnName:@"promotion,",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastTree(new FastTreeBinaryTrainer.Options(){NumberOfLeaves=4,MinimumExampleCountPerLeaf=20,NumberOfTrees=4,MaximumBinCountPerFeature=254,FeatureFraction=1,LearningRate=0.1,LabelColumnName=@"promotion,",FeatureColumnName=@"Features"}),labelColumnName: @"promotion,"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.LbfgsMaximumEntropy(new LbfgsMaximumEntropyMulticlassTrainer.Options(){L1Regularization=0.03125F,L2Regularization=0.4902121F,LabelColumnName=@"promotion,",FeatureColumnName=@"Features"}))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
