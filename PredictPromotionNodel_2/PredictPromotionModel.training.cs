@@ -100,7 +100,7 @@ namespace PredictNumberModel
                                     .Append(mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"rating,",outputColumnName:@"rating,"))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"department,",@"last_name,",@"city,",@"country,",@"experience,",@"salary",@"person_id,",@"first_name,",@"age,",@"state,",@"rating,"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"promotion,",inputColumnName:@"promotion,",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastTree(new FastTreeBinaryTrainer.Options(){NumberOfLeaves=4,MinimumExampleCountPerLeaf=15,NumberOfTrees=26,MaximumBinCountPerFeature=145,FeatureFraction=0.78995109233109,LearningRate=0.398731069076128,LabelColumnName=@"promotion,",FeatureColumnName=@"Features"}),labelColumnName: @"promotion,"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastTree(new FastTreeBinaryTrainer.Options(){NumberOfLeaves=4,MinimumExampleCountPerLeaf=20,NumberOfTrees=4,MaximumBinCountPerFeature=254,FeatureFraction=1,LearningRate=0.1,LabelColumnName=@"promotion,",FeatureColumnName=@"Features"}),labelColumnName: @"promotion,"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
