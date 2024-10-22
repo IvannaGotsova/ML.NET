@@ -1190,9 +1190,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
-      "projectName": "PredictNumberModel",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictSalaryModel.csproj",
+      "projectName": "PredictSalaryModel",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictSalaryModel.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",

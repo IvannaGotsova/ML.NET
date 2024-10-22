@@ -9,13 +9,8 @@
     <PackageReference Include="Microsoft.ML" Version="2.0.0" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="2.0.0" />
   </ItemGroup>
-  <ItemGroup Label="PredictNumberModel">
-    <None Include="PredictNumberModel.mlnet">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup Label="PredictPromotionModel">
-    <None Include="PredictPromotionModel.mlnet">
+  <ItemGroup>
+    <None Update="PredictSalaryModel.mlnet">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

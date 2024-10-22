@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ruo5NCCFjZbt1fVscDjAKlOYeey0Q5S68LRgMt0gfh5zM2FwgRWs7kaObMOPx6gkJGkxiwN+iXrknAdEzeI3dA==",
+  "dgSpecHash": "JqYP1rO+C2O9AHndQVXHO6ArHbL2Ly7CWJXrw4PUButA6sFGg1vaWs/36TkP152BHilygduHyyADpIQY8hvbew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictNumberModel.csproj",
+  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictNumberModel_ConsoleApp\\PredictSalaryModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml\\2.0.0\\microsoft.ml.2.0.0.nupkg.sha512",
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml.cpumath\\2.0.0\\microsoft.ml.cpumath.2.0.0.nupkg.sha512",
