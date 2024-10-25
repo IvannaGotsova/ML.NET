@@ -68,7 +68,7 @@
         "ColumnName": "country,",
         "ColumnPurpose": "Feature",
         "ColumnDataFormat": "String",
-        "IsCategorical": false,
+        "IsCategorical": true,
         "Type": "Column",
         "Version": 4
       },
