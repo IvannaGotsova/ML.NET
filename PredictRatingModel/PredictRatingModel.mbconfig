@@ -12,7 +12,7 @@
         "ColumnName": "person_id,",
         "ColumnPurpose": "Feature",
         "ColumnDataFormat": "Single",
-        "IsCategorical": true,
+        "IsCategorical": false,
         "Type": "Column",
         "Version": 4
       },
@@ -44,7 +44,7 @@
         "ColumnName": "age,",
         "ColumnPurpose": "Feature",
         "ColumnDataFormat": "Single",
-        "IsCategorical": false,
+        "IsCategorical": true,
         "Type": "Column",
         "Version": 4
       },
@@ -100,7 +100,7 @@
         "ColumnName": "salary",
         "ColumnPurpose": "Feature",
         "ColumnDataFormat": "Single",
-        "IsCategorical": true,
+        "IsCategorical": false,
         "Type": "Column",
         "Version": 4
       }
@@ -116,7 +116,15 @@
     "Version": 1,
     "Type": "RegressionTrainingOption",
     "TrainingTime": 10,
+    "OptimizeMetric": "RMSE",
     "LabelColumn": "rating,",
+    "AvailableTrainers": [
+      "SDCA",
+      "LBFGS",
+      "LGBM",
+      "FASTTREE",
+      "FASTFOREST"
+    ],
     "ValidationOption": {
       "Version": 0,
       "Type": "CrossValidationValidationOption",
