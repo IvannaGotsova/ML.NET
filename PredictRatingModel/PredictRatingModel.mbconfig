@@ -92,7 +92,7 @@
         "ColumnName": "promotion,",
         "ColumnPurpose": "Feature",
         "ColumnDataFormat": "String",
-        "IsCategorical": true,
+        "IsCategorical": false,
         "Type": "Column",
         "Version": 4
       },
@@ -115,7 +115,7 @@
   "TrainingOption": {
     "Version": 1,
     "Type": "ClassificationTrainingOption",
-    "TrainingTime": 10,
+    "TrainingTime": 30,
     "LabelColumn": "rating,",
     "ValidationOption": {
       "Version": 0,
