@@ -76,7 +76,7 @@
         "ColumnName": "rating,",
         "ColumnPurpose": "Label",
         "ColumnDataFormat": "Single",
-        "IsCategorical": true,
+        "IsCategorical": false,
         "Type": "Column",
         "Version": 4
       },
