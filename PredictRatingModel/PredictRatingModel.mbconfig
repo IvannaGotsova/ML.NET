@@ -1,14 +1,10 @@
 ﻿{
-  "Scenario": "Classification",
-  "Environment": {
-    "Type": "LocalCPU",
-    "Version": 1
-  },
+  "Scenario": "Default",
   "Type": "TrainingConfig",
   "Version": 4,
   "TrainingOption": {
     "Version": 1,
-    "Type": "ClassificationTrainingOption",
+    "Type": "DefaultTrainingOption",
     "TrainingTime": 0
   }
 }
