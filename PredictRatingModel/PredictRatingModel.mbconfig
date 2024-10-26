@@ -1,10 +1,14 @@
 ﻿{
-  "Scenario": "Default",
+  "Scenario": "Regression",
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
   "Type": "TrainingConfig",
   "Version": 4,
   "TrainingOption": {
     "Version": 1,
-    "Type": "DefaultTrainingOption",
+    "Type": "RegressionTrainingOption",
     "TrainingTime": 0
   }
 }
