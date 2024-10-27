@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PredictRatingModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9717602af0c72c8f1710bf8cc1456df8b87b7645")]
 [assembly: System.Reflection.AssemblyProductAttribute("PredictRatingModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PredictRatingModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
