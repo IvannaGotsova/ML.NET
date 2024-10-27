@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2", "PredictPromotionModel_2\PredictPromotionModel_2.csproj", "{95BF07FD-A371-41D5-BF4C-D869CB947EAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictRatingModel", "PredictRatingModel\PredictRatingModel.csproj", "{DEA0FC04-AAC8-4592-9342-22064ED9B528}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictRatingModel_", "PredictRatingModel_\PredictRatingModel_.csproj", "{1E9535C4-6361-4160-B7D6-30E27A655A96}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{95BF07FD-A371-41D5-BF4C-D869CB947EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95BF07FD-A371-41D5-BF4C-D869CB947EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95BF07FD-A371-41D5-BF4C-D869CB947EAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEA0FC04-AAC8-4592-9342-22064ED9B528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEA0FC04-AAC8-4592-9342-22064ED9B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEA0FC04-AAC8-4592-9342-22064ED9B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEA0FC04-AAC8-4592-9342-22064ED9B528}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
