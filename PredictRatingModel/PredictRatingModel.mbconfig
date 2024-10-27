@@ -119,7 +119,7 @@
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
         "Score": 2.2612300464951529,
-        "RuntimeInSeconds": 2.251,
+        "RuntimeInSeconds": 2.419,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
           "e0": {
@@ -227,11 +227,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastForestRegression",
-        "Score": 2.2612300464951529,
-        "RuntimeInSeconds": 0.653,
+        "TrainerName": "LightGbmRegression",
+        "Score": 6.1210179893033638,
+        "RuntimeInSeconds": 1.195,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e9",
           "e0": {
             "OutputColumnNames": [
               "department",
@@ -290,10 +290,16 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e8": {
+          "e9": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
             "NumberOfTrees": 4,
-            "NumberOfLeaves": 40,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 254,
             "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
             "LabelColumnName": "rating",
             "FeatureColumnName": "Features"
           },
@@ -319,16 +325,10 @@
             "LabelColumnName": "rating",
             "FeatureColumnName": "Features"
           },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
+          "e8": {
             "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 255,
+            "NumberOfLeaves": 4,
             "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
             "LabelColumnName": "rating",
             "FeatureColumnName": "Features"
           }
@@ -358,7 +358,7 @@
   "TrainingOption": {
     "Version": 1,
     "Type": "RegressionTrainingOption",
-    "TrainingTime": 120,
+    "TrainingTime": 200,
     "OptimizeMetric": "MSE",
     "LabelColumn": "rating",
     "AvailableTrainers": [
