@@ -119,7 +119,7 @@
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
         "Score": 2.2612300464951529,
-        "RuntimeInSeconds": 1.887,
+        "RuntimeInSeconds": 2.251,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
           "e0": {
@@ -227,11 +227,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmRegression",
-        "Score": 6.1210179893033638,
-        "RuntimeInSeconds": 1.039,
+        "TrainerName": "FastForestRegression",
+        "Score": 2.2612300464951529,
+        "RuntimeInSeconds": 0.653,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e9",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
           "e0": {
             "OutputColumnNames": [
               "department",
@@ -290,16 +290,10 @@
             ],
             "OutputColumnName": "Features"
           },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
+          "e8": {
             "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 254,
+            "NumberOfLeaves": 40,
             "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
             "LabelColumnName": "rating",
             "FeatureColumnName": "Features"
           },
@@ -322,110 +316,6 @@
             "MaximumBinCountPerFeature": 255,
             "FeatureFraction": 1.0,
             "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastTreeRegression",
-        "Score": 23.648484175549704,
-        "RuntimeInSeconds": 0.627,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7",
-          "e0": {
-            "OutputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ],
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ]
-          },
-          "e2": {
-            "InputColumnName": "first_name",
-            "OutputColumnName": "first_name"
-          },
-          "e3": {
-            "InputColumnName": "last_name",
-            "OutputColumnName": "last_name"
-          },
-          "e4": {
-            "InputColumnName": "city",
-            "OutputColumnName": "city"
-          },
-          "e5": {
-            "InputColumnName": "state",
-            "OutputColumnName": "state"
-          },
-          "e6": {
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion",
-              "person_id",
-              "age",
-              "experience",
-              "salary",
-              "first_name",
-              "last_name",
-              "city",
-              "state"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e7": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e10": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
             "LabelColumnName": "rating",
             "FeatureColumnName": "Features"
           },
@@ -468,7 +358,7 @@
   "TrainingOption": {
     "Version": 1,
     "Type": "RegressionTrainingOption",
-    "TrainingTime": 60,
+    "TrainingTime": 120,
     "OptimizeMetric": "MSE",
     "LabelColumn": "rating",
     "AvailableTrainers": [
