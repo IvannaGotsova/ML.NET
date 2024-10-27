@@ -99,7 +99,7 @@ namespace PredictSalaryModel
                                     .Append(mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"city",outputColumnName:@"city"))      
                                     .Append(mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"state",outputColumnName:@"state"))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"department",@"country",@"promotion",@"person_id",@"age",@"experience",@"salary",@"first_name",@"last_name",@"city",@"state"}))      
-                                    .Append(mlContext.Regression.Trainers.FastForest(new FastForestRegressionTrainer.Options(){NumberOfTrees=55,NumberOfLeaves=50,FeatureFraction=1F,LabelColumnName=@"rating",FeatureColumnName=@"Features"}));
+                                    .Append(mlContext.Regression.Trainers.FastForest(new FastForestRegressionTrainer.Options(){NumberOfTrees=4,NumberOfLeaves=4,FeatureFraction=1F,LabelColumnName=@"rating",FeatureColumnName=@"Features"}));
 
             return pipeline;
         }
