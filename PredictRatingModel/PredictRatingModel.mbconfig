@@ -118,228 +118,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": 2.1511709613672663,
-        "RuntimeInSeconds": 2.826,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
-          "e0": {
-            "OutputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ],
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ]
-          },
-          "e2": {
-            "InputColumnName": "first_name",
-            "OutputColumnName": "first_name"
-          },
-          "e3": {
-            "InputColumnName": "last_name",
-            "OutputColumnName": "last_name"
-          },
-          "e4": {
-            "InputColumnName": "city",
-            "OutputColumnName": "city"
-          },
-          "e5": {
-            "InputColumnName": "state",
-            "OutputColumnName": "state"
-          },
-          "e6": {
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion",
-              "person_id",
-              "age",
-              "experience",
-              "salary",
-              "first_name",
-              "last_name",
-              "city",
-              "state"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 969,
-            "NumberOfLeaves": 64,
-            "FeatureFraction": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e10": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e7": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastForestRegression",
-        "Score": 2.1563271876671273,
-        "RuntimeInSeconds": 1.153,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
-          "e0": {
-            "OutputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ],
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "person_id",
-              "age",
-              "experience",
-              "salary"
-            ]
-          },
-          "e2": {
-            "InputColumnName": "first_name",
-            "OutputColumnName": "first_name"
-          },
-          "e3": {
-            "InputColumnName": "last_name",
-            "OutputColumnName": "last_name"
-          },
-          "e4": {
-            "InputColumnName": "city",
-            "OutputColumnName": "city"
-          },
-          "e5": {
-            "InputColumnName": "state",
-            "OutputColumnName": "state"
-          },
-          "e6": {
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion",
-              "person_id",
-              "age",
-              "experience",
-              "salary",
-              "first_name",
-              "last_name",
-              "city",
-              "state"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 56,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 0.9876534,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e10": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e7": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "rating",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastForestRegression",
-        "Score": 2.2612300464951529,
-        "RuntimeInSeconds": 2.713,
+        "Score": -0.14367595479149436,
+        "RuntimeInSeconds": 1.816,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8",
           "e0": {
@@ -448,8 +228,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LightGbmRegression",
-        "Score": 6.1210179893033638,
-        "RuntimeInSeconds": 1.148,
+        "Score": -2.0477723632400457,
+        "RuntimeInSeconds": 1.016,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e9",
           "e0": {
@@ -558,8 +338,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastTreeRegression",
-        "Score": 23.648484175549704,
-        "RuntimeInSeconds": 1.368,
+        "Score": -11.407946310307228,
+        "RuntimeInSeconds": 0.643,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7",
           "e0": {
@@ -680,7 +460,7 @@
       "e11": "SdcaRegression"
     },
     "Schema": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * (e7 + e8 + e9 + e10 + e11)",
-    "MetricName": "MeanSquaredError",
+    "MetricName": "RSquared",
     "ModelFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel\\PredictRatingModel.mlnet"
   },
   "Type": "TrainingConfig",
@@ -689,7 +469,7 @@
     "Version": 1,
     "Type": "RegressionTrainingOption",
     "TrainingTime": 300,
-    "OptimizeMetric": "MSE",
+    "OptimizeMetric": "RSquared",
     "LabelColumn": "rating",
     "AvailableTrainers": [
       "SDCA",
