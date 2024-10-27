@@ -1190,9 +1190,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel_\\PredictRatingModel_.csproj",
-      "projectName": "PredictRatingModel_",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel_\\PredictRatingModel_.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel_\\PredictRatingModel.csproj",
+      "projectName": "PredictRatingModel",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel_\\PredictRatingModel.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictRatingModel_\\obj\\",
       "projectStyle": "PackageReference",

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2", "PredictPromotionModel_2\PredictPromotionModel_2.csproj", "{95BF07FD-A371-41D5-BF4C-D869CB947EAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictRatingModel_", "PredictRatingModel_\PredictRatingModel_.csproj", "{1E9535C4-6361-4160-B7D6-30E27A655A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictRatingModel", "PredictRatingModel_\PredictRatingModel.csproj", "{1E9535C4-6361-4160-B7D6-30E27A655A96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
