@@ -119,7 +119,7 @@
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
         "Score": 0.0,
-        "RuntimeInSeconds": 25.526,
+        "RuntimeInSeconds": 26.106,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e7 * e14",
           "e0": {
@@ -246,9 +246,138 @@
       {
         "Version": 1,
         "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.0,
+        "RuntimeInSeconds": 95.122,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e11 * e14",
+          "e0": {
+            "OutputColumnNames": [
+              "department",
+              "country",
+              "promotion"
+            ],
+            "InputColumnNames": [
+              "department",
+              "country",
+              "promotion"
+            ]
+          },
+          "e1": {
+            "OutputColumnNames": [
+              "person_id",
+              "age",
+              "rating",
+              "experience",
+              "salary"
+            ],
+            "InputColumnNames": [
+              "person_id",
+              "age",
+              "rating",
+              "experience",
+              "salary"
+            ]
+          },
+          "e11": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e14": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnName": "first_name",
+            "OutputColumnName": "first_name"
+          },
+          "e3": {
+            "InputColumnName": "last_name",
+            "OutputColumnName": "last_name"
+          },
+          "e4": {
+            "InputColumnName": "state",
+            "OutputColumnName": "state"
+          },
+          "e5": {
+            "InputColumnNames": [
+              "department",
+              "country",
+              "promotion",
+              "person_id",
+              "age",
+              "rating",
+              "experience",
+              "salary",
+              "first_name",
+              "last_name",
+              "state"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e6": {
+            "OutputColumnName": "city",
+            "InputColumnName": "city",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e10": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e12": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e13": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e7": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e8": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          },
+          "e9": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "city",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
         "TrainerName": "FastForestOva",
         "Score": 0.0,
-        "RuntimeInSeconds": 33.819,
+        "RuntimeInSeconds": 31.754,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e8 * e14",
           "e0": {
@@ -371,264 +500,6 @@
             "FeatureColumnName": "Features"
           }
         }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.0,
-        "RuntimeInSeconds": 1.211,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e9 * e14",
-          "e0": {
-            "OutputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ],
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary"
-            ]
-          },
-          "e14": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnName": "first_name",
-            "OutputColumnName": "first_name"
-          },
-          "e3": {
-            "InputColumnName": "last_name",
-            "OutputColumnName": "last_name"
-          },
-          "e4": {
-            "InputColumnName": "state",
-            "OutputColumnName": "state"
-          },
-          "e5": {
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion",
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary",
-              "first_name",
-              "last_name",
-              "state"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e6": {
-            "OutputColumnName": "city",
-            "InputColumnName": "city",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e10": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e12": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e13": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e7": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "SdcaMaximumEntropyMulti",
-        "Score": 0.0,
-        "RuntimeInSeconds": 200.812,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * e12 * e14",
-          "e0": {
-            "OutputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ],
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary"
-            ],
-            "InputColumnNames": [
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary"
-            ]
-          },
-          "e12": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e14": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnName": "first_name",
-            "OutputColumnName": "first_name"
-          },
-          "e3": {
-            "InputColumnName": "last_name",
-            "OutputColumnName": "last_name"
-          },
-          "e4": {
-            "InputColumnName": "state",
-            "OutputColumnName": "state"
-          },
-          "e5": {
-            "InputColumnNames": [
-              "department",
-              "country",
-              "promotion",
-              "person_id",
-              "age",
-              "rating",
-              "experience",
-              "salary",
-              "first_name",
-              "last_name",
-              "state"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e6": {
-            "OutputColumnName": "city",
-            "InputColumnName": "city",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e10": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e11": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e13": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 0.1,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e7": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e8": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          },
-          "e9": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 255,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "city",
-            "FeatureColumnName": "Features"
-          }
-        }
       }
     ],
     "Estimators": {
@@ -649,7 +520,7 @@
       "e14": "MapKeyToValue"
     },
     "Schema": "e0 * e1 * e2 * e3 * e4 * e5 * e6 * (e7 + e8 + e9 + e10 + e11 + e12 + e13) * e14",
-    "MetricName": "MicroAccuracy",
+    "MetricName": "MacroAccuracy",
     "ModelFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel\\PredictCityModel.mlnet"
   },
   "Type": "TrainingConfig",
@@ -658,7 +529,7 @@
     "Version": 1,
     "Type": "ClassificationTrainingOption",
     "TrainingTime": 300,
-    "OptimizeMetric": "MicroAccuracy",
+    "OptimizeMetric": "MacroAccuracy",
     "LabelColumn": "city",
     "AvailableTrainers": [
       "SDCA",
