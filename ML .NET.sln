@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictPromotionModel_2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictRatingModel", "PredictRatingModel_\PredictRatingModel.csproj", "{1E9535C4-6361-4160-B7D6-30E27A655A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictCityModel", "PredictCityModel\PredictCityModel.csproj", "{4D1E2660-720E-4B49-998C-3F45E11C245D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E9535C4-6361-4160-B7D6-30E27A655A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1E2660-720E-4B49-998C-3F45E11C245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1E2660-720E-4B49-998C-3F45E11C245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1E2660-720E-4B49-998C-3F45E11C245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1E2660-720E-4B49-998C-3F45E11C245D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
