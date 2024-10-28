@@ -41,13 +41,13 @@ namespace PredictCityModel
 
             var featureImportanceMetrics =
                  permutationFeatureImportance
-                 .Select((kvp) => new { kvp.Key, kvp.Value.LogLoss })
-                 .OrderByDescending(myFeatures => Math.Abs(myFeatures.LogLoss.Mean));
+                 .Select((kvp) => new { kvp.Key, kvp.Value.MicroAccuracy })
+                 .OrderByDescending(myFeatures => Math.Abs(myFeatures.MicroAccuracy.Mean));
 
             var featurePFI = new List<Tuple<string, double>>();
             foreach (var feature in featureImportanceMetrics)
             {
-                var pfiValue = Math.Abs(feature.LogLoss.Mean);
+                var pfiValue = Math.Abs(feature.MicroAccuracy.Mean);
                 featurePFI.Add(new Tuple<string, double>(feature.Key, pfiValue));
             }
 
