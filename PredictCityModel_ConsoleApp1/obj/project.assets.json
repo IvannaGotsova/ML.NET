@@ -1190,9 +1190,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel_ConsoleApp1.csproj",
-      "projectName": "PredictCityModel_ConsoleApp1",
-      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel_ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel.csproj",
+      "projectName": "PredictCityModel",
+      "projectPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel.csproj",
       "packagesPath": "C:\\Users\\IG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

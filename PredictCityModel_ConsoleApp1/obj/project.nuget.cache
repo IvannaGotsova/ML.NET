@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QGN8KvONfxqDt4xO/LtGBGzPxkySeJJJ8BRg/OZDQmEhdaHNInItynXaxOoODW01+NB64lzEX0/BUxBZKzfEwQ==",
+  "dgSpecHash": "IfKwPSg2fCnNGHnOxljaP9h2fJtSuen2D7wedhvRM+tIetZNe9JqUI6rRWp1eRowXrXSjeu3LML6PN1KWHYRIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel_ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\IG\\source\\repos\\ML .NET\\PredictCityModel_ConsoleApp1\\PredictCityModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml\\2.0.0\\microsoft.ml.2.0.0.nupkg.sha512",
     "C:\\Users\\IG\\.nuget\\packages\\microsoft.ml.cpumath\\2.0.0\\microsoft.ml.cpumath.2.0.0.nupkg.sha512",
